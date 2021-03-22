@@ -32,7 +32,7 @@ The messages used to communication with a RESTful API are almost always HTTP req
 
 HTTP requests can be sent in many ways, such as command line tools, programming libraries, and software applications.
 
-After sengin an HTTP request an HTTP response is returned. These can indicate that everything worked, such as a `200 OK` response, or indicate what in particular went wrong, such as a `400 Bad Request` response.
+After sending an HTTP request an HTTP response is returned. These can indicate that everything worked, such as a `200 OK` response, or they can indicate what in particular went wrong, such as a `400 Bad Request` response.
 
 [Learn more about HTTP responses here.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
