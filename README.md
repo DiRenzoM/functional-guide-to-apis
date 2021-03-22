@@ -61,7 +61,7 @@ By specifying the data we want from the API we save ourselves the trouble of sor
 
 The other types of routes work in much the same way, often requiring some additional information included with the request, such as the new or updated information for POST/PUT requests or the id of a comment to DELETE.
 
-The tool [Postman](https://www.postman.com/) can be used to easily form and send HTTP requests as well as other formats of API messages for the purpose of API testing.
+The tool [Postman](https://www.postman.com/) can be used to easily form and send HTTP requests for the purpose of API testing.
 
 ![postman](img/postman.PNG)
 
