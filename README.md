@@ -14,7 +14,7 @@ An API can be set up to only allow authorized sources or individuals to access i
 
 A common type of API is called a REST API, or RESTful API. REST stands for **RE**presentational **S**tate **T**ransfer and is simply an API architecture, or a specific way to build APIs. This is useful because if there were no agreed upon standards then every API would be completely unique and require unique implementations to interface with it. By working within the standard the API becomes much more accessible.
 
-[Learn more about RESTful APIs here.](https://restfulapi.net/)
+[Learn more about RESTful APIs here.](https://developer.mozilla.org/en-US/docs/Glossary/REST)
 
 ## Where are APIs used?
 APIs are used almost everywhere on the internet! Anywhere there is a transfer of data between a client and a server, such as an internet browser and a website's back-end, an API of some variety will most likely be used. APIs are also used for communication between backend systems, since an API constrains the potential interactions to only what is allowed, making for simple communication that does not require knowledge of the underlying system.
