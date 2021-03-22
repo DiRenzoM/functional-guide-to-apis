@@ -28,9 +28,13 @@ APIs are accessed through specifically formed messages that correspond specifica
 
 The messages used to communication with a RESTful API are almost always HTTP requests, which stands for **H**yper**T**ext **T**ransfer **P**rotocol, though there are exceptions. That's why reading the specific documentation is so important!
 
-[Learn more about the types of HTTP requests here.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+[Learn more about HTTP requests here.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 HTTP requests can be sent in many ways, such as command line tools, programming libraries, and software applications.
+
+After sengin an HTTP request an HTTP response is returned. These can indicate that everything worked, such as a `200 OK` response, or indicate what in particular went wrong, such as a `400 Bad Request` response.
+
+[Learn more about HTTP responses here.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 ### Example
 
@@ -61,7 +65,7 @@ The tool [Postman](https://www.postman.com/) can be used to easily form and send
 
 ![postman](img/postman.PNG)
 
-As we can see above, the body of the PUT request was filled out with an `id`, `title`, `body`, and `userId`. The header was also filled in accord with the specifications of the documentation. As a result, on the bottom third of the Postman screen, we receive in JSON the id of the updated entry after a brief 294 millisecond wait.
+As we can see above, the body of the PUT request was filled out with an `id`, `title`, `body`, and `userId`. The header was also filled in accord with the specifications of the documentation. As a result, on the bottom third of the Postman screen, we received a `200 OK` response with the JSON id of the updated entry after a brief 294 millisecond wait.
 
 ## How do I know if an API exists?
 
