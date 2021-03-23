@@ -30,7 +30,9 @@ The messages used to communication with a RESTful API are almost always HTTP req
 
 [Learn more about HTTP requests here.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
-HTTP requests can be sent in many ways, such as command line tools, programming libraries, and software applications.
+HTTP requests can be sent in many ways, such as command line tools, programming libraries, and software applications. In Python, a commonly used library is [Requests](https://requests.readthedocs.io/en/master/).
+
+
 
 After sending an HTTP request an HTTP response is returned. These can indicate that everything worked, such as a `200 OK` response, or they can indicate what in particular went wrong, such as a `400 Bad Request` response.
 
