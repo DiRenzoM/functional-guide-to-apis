@@ -42,7 +42,6 @@ After sending an HTTP request an HTTP response is returned. These can indicate t
 
 The website https://jsonplaceholder.typicode.com/ provides a simple public example API.
 
-Below are the routes provided.
 ![example_routes](img/endpoints.PNG)
 
 Notice how the routes all start with `/`. This is because they are specified after the website address.
