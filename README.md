@@ -19,7 +19,7 @@ A common type of API is called a REST API, or RESTful API. REST stands for **RE*
 ## Where are APIs used?
 APIs are used almost everywhere on the internet! Anywhere there is a transfer of data between a client and a server, such as an internet browser and a website's back-end, an API of some variety will most likely be used. APIs are also used for communication between backend systems, since an API constrains the potential interactions to only what is allowed, making for simple communication that does not require knowledge of the underlying system.
 
-Note: The contents of static websites come from [webservers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server), as they do not change once provided, but any additional data transfer will use an API.
+Note: The contents of static websites come from [web servers](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_is_a_web_server), as they do not change once provided, but any additional data transfer will use an API.
 
 Examples include submitting log in details to a website, posting a comment on social media, scrolling through a list that continually updates, or looking at a website with data that stays up to date each time you load it, such as weather forecasts. A less visible example would be algorithmic trading, where software algorithms submit thousands of API requests every second to buy and sell financial assets.
 
